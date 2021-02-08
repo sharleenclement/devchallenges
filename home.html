@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Space+Mono&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        h3{
+            font-family: 'Inconsolata', monospace;
+            font-size: 24px;
+            font-weight: 700;
+            margin: 40px 77px;
+        }
+
+        .container{
+            display: flex;
+        }
+
+        .container__img{
+            /* position: absolute; */
+            width: 500px;
+            margin: 265px 77px;
+        }
+
+        .container__text{
+            margin: 265px 119px 200px 200px;
+            font-family: 'Space Mono', monospace;
+            font-weight: 700;
+            font-size: 26px;
+            padding: 10px 0;
+        }
+
+        p{
+            font-size: 24px;
+            font-weight: 200;
+            padding: 30px 160px 30px 0px;
+        }
+
+        .btn{
+            background: #333333;
+            border: 1px #333333 solid;
+            color: #fff;
+            font-weight: 400;
+            padding: 20px;
+            margin: 40px 0;
+            width: 30%;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer{
+            text-align: center;
+            margin: 40px ;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+
+        }
+
+        @media only screen  and (max-width: 500px){
+
+            h3{
+                font-size: 20px;
+                margin: 30px 50px;
+            }
+
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+
+            .container__img{
+                width: 250px;
+                margin: 30px 50px;
+
+            }
+
+            .container__text{
+                margin: 20px 10px;
+                font-size: 18px;
+                padding: 8px 8px;
+            }
+
+            p{
+                font-size: 18px;
+                padding: 15px 5px;
+            }
+
+            .btn{
+                width: 50%;
+            }
+
+        } 
+    </style>
+</head>
+<body>
+    <h3>404 NOT FOUND</h3>
+    <div class="container">
+        <img src="Scarecrow.png" class="container__img">
+        <div class="container__text">
+            <h1>I have a bad news for you</h1>
+            <p>The page you are looking for might be removed or is temporarily unavailable.</p>
+            <div class="btn">BACK TO HOMEPAGE</div>
+        </div>
+    </div>
+    <footer>Sharleen @ DevChallenges.io</footer>
+</body>
+</html>
